@@ -1,0 +1,4 @@
+mydata <- read.csv("/home/7c/data.csv",header = TRUE,sep=",")
+print(mydata)
+write.csv(mydata,"/home/7c/data_1.csv",quote = T,append = F,row.names =
+T,col.names = T)
